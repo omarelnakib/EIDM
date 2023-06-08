@@ -137,7 +137,7 @@ input_shape = (78,1)
 model = Sequential()
 model.add(Dense(64, activation='relu'))
 
-model.add(LSTM(64, dropout=0.2))
+model.add(LSTM(128, dropout=0.2))
 
 model.add(Dense(32, activation='relu'))
 
